@@ -3,22 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- reset css -->
     <link rel="stylesheet" href="./assets/css/reset.css" />
+    <!-- embedfont -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=poppins:ital,wgh@0,400;0,500;0,600;0,700;0,400&family=sen:wght@700&display-swap"
       rel="stylesheet"
     />
+    <!-- style -->
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Ví dụ</title>
+    <title>Làm lại phần figma</title>
   </head>
   <body style="height: 10000px">
-    <!-- header -->
+    <!-- ==========header========== -->
+    <!-- header.header.fixed -->
     <header class="header fixed">
       <div class="main-container">
         <div class="body">
+          <!-- logo -->
           <img src="./assets/img/Lesson..svg" alt="Lesson" class="log" />
+          <!-- nav.nav>ul>li*4>a{Home} -->
           <nav class="nav">
             <ul>
               <li class="active">
@@ -41,9 +47,9 @@
         </div>
       </div>
     </header>
-    <!-- main -->
+    <!-- ===============main=============== -->
     <div class="main">
-      <!-- hero -->
+      <!-- ==========hero========== -->
       <div class="hero">
         <div class="main-container">
           <div class="body">
@@ -114,10 +120,12 @@
           </div>
         </div>
       </div>
-      <!-- popular -->
+      <!-- ==========popular========== -->
       <div class="popular">
         <div class="main-container">
           <div class="popular-top">
+            <!-- popular left -->
+            <!-- .info>h2.heading-lv2+p.desc -->
             <div class="info">
               <h2 class="heading-lv2">Our popular courses</h2>
               <p class="desc">
@@ -126,9 +134,10 @@
               </p>
             </div>
             <div class="controls">
+              <!-- button.control-btn*2>img -->
               <button class="control-btn">
-                <img src="./assets/icon/prev.svg" alt="" />
-                <!-- <svg
+                <!-- <img src="./assets/icon/prev.svg" alt="" /> -->
+                <svg
                   width="8"
                   hight="14"
                   viewBox="0 0 8 14"
@@ -141,11 +150,11 @@
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
-                </svg> -->
+                </svg>
               </button>
               <button class="control-btn">
-                <img src="./assets/icon/next.svg" alt="" />
-                <!-- <svg
+                <!-- <img src="./assets/icon/next.svg" alt="" /> -->
+                <svg
                   width="8"
                   hight="14"
                   viewBox="0 0 8 14"
@@ -158,7 +167,7 @@
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
-                </svg> -->
+                </svg>
               </button>
             </div>
           </div>
@@ -174,7 +183,9 @@
               </a>
               <div class="info">
                 <div class="head">
-                  <h3 class="title">Basic web design</h3>
+                  <a class="line-clamp break-all" href="#!">
+                    <h3 class="title">Basic web design</h3></a
+                  >
                   <div class="rating">
                     <img
                       src="./assets/icon/Star .svg"
@@ -184,13 +195,13 @@
                     <span class="value">4.5</span>
                   </div>
                 </div>
-                <p class="desc">
+                <p class="desc line-clamp line-2 break-all">
                   Get the best course, gain knowledge and shine for your future
                   career.
                 </p>
                 <div class="foot">
                   <span class="price">$120.75</span>
-                  <button class="btn">Book Now</button>
+                  <button class="btn btn-book">Book Now</button>
                 </div>
               </div>
             </div>
@@ -205,7 +216,9 @@
               </a>
               <div class="info">
                 <div class="head">
-                  <h3 class="title">Basic web design</h3>
+                  <a class="line-clamp break-all" href="#!">
+                    <h3 class="title">Basic web design</h3></a
+                  >
                   <div class="rating">
                     <img
                       src="./assets/icon/Star .svg"
@@ -215,13 +228,13 @@
                     <span class="value">4.5</span>
                   </div>
                 </div>
-                <p class="desc">
+                <p class="desc line-clamp line-2 break-all">
                   Get the best course, gain knowledge and shine for your future
                   career.
                 </p>
                 <div class="foot">
                   <span class="price">$120.75</span>
-                  <button class="btn">Book Now</button>
+                  <button class="btn btn-book">Book Now</button>
                 </div>
               </div>
             </div>
@@ -236,7 +249,9 @@
               </a>
               <div class="info">
                 <div class="head">
-                  <h3 class="title">Basic web design</h3>
+                  <a class="line-clamp break-all" href="#!">
+                    <h3 class="title">Basic web design</h3></a
+                  >
                   <div class="rating">
                     <img
                       src="./assets/icon/Star .svg"
@@ -246,14 +261,105 @@
                     <span class="value">4.5</span>
                   </div>
                 </div>
-                <p class="desc">
+                <p class="desc line-clamp line-2 break-all">
                   Get the best course, gain knowledge and shine for your future
                   career.
                 </p>
                 <div class="foot">
                   <span class="price">$120.75</span>
-                  <button class="btn">Book Now</button>
+                  <button class="btn btn-book">Book Now</button>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ==========feedback========== -->
+      <div class="feedback">
+        <div class="main-container">
+          <div class="feedback-list">
+            <!-- item-1 -->
+            <div class="feedback-item">
+              <!-- khối bên trái -->
+              <div class="info">
+                <img src="./assets/img/ava-1.jpg" alt="Rose" class="avatar" />
+                <p class="member-name">Rose Moor</p>
+                <p class="desc">Student of Web Design</p>
+                <div class="dots">
+                  <span class="dot active"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                </div>
+              </div>
+              <!-- khối bên phải -->
+              <div class="content">
+                <img
+                  src="./assets/icon/quotes.svg"
+                  alt=""
+                  class="open-quotes"
+                />
+                <blockquote>
+                  Not only dose my resume look impressive—filled with the names
+                  and logos of world-class institutions—but these certificates
+                  also bring me closer to my career goals by validating the
+                  skills i've learned"
+                </blockquote>
+              </div>
+            </div>
+            <!-- item-2 -->
+            <div class="feedback-item">
+              <!-- khối bên trái -->
+              <div class="info">
+                <img src="./assets/img/ava-2.jpg" alt="Lisa" class="avatar" />
+                <p class="member-name">Lisa Moor</p>
+                <p class="desc">Student of Web Design</p>
+                <div class="dots">
+                  <span class="dot"></span>
+                  <span class="dot active"></span>
+                  <span class="dot"></span>
+                </div>
+              </div>
+              <!-- khối bên phải -->
+              <div class="content">
+                <img
+                  src="./assets/icon/quotes.svg"
+                  alt=""
+                  class="open-quotes"
+                />
+                <blockquote>
+                  Not only dose my resume look impressive—filled with the names
+                  and logos of world-class institutions—but these certificates
+                  also bring me closer to my career goals by validating the
+                  skills i've learned"
+                </blockquote>
+              </div>
+            </div>
+            <!-- item-3 -->
+            <div class="feedback-item">
+              <!-- khối bên trái -->
+              <div class="info">
+                <img src="./assets/img/ava-3.jpg" alt="Boy" class="avatar" />
+                <p class="member-name">Boy Moor</p>
+                <p class="desc">Student of Web Design</p>
+                <div class="dots">
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot active"></span>
+                </div>
+              </div>
+              <!-- khối bên phải -->
+              <div class="content">
+                <img
+                  src="./assets/icon/quotes.svg"
+                  alt=""
+                  class="open-quotes"
+                />
+                <blockquote>
+                  Not only dose my resume look impressive—filled with the names
+                  and logos of world-class institutions—but these certificates
+                  also bring me closer to my career goals by validating the
+                  skills i've learned"
+                </blockquote>
               </div>
             </div>
           </div>
